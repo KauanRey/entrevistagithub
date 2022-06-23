@@ -1,0 +1,113 @@
+header {
+
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,179,255,1) 50%, rgba(2,0,36,1) 100%);
+
+}
+
+hr{
+    color:#f64d27;
+  
+}
+main{
+    margin-top: 10px;
+}
+
+header #logo{
+
+text-align: center;
+padding-top: 5px;
+
+}
+
+/*pai*/
+
+#menu-lateral{
+
+    width: 159px;
+    float: left;
+
+}
+
+
+/*filho*/
+/*
+nav{
+ 
+}
+*/
+/*neto*/
+/*
+nav ul{
+ 
+}
+*/
+/*bisneto*/
+
+nav ul li{
+
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+/*tataraneto*/
+nav ul li a{
+
+    text-decoration: none;
+    color: black; 
+
+}
+
+nav ul li a:hover{
+
+    text-decoration: none;
+    color: #f64d27;
+    font-weight: bold;
+
+}
+
+
+
+#menu-lateral nav ul li{
+
+    padding-top: 4px;
+    font-size: 10px;
+
+}
+
+
+#comandos{
+
+    background-color: blueviolet;
+
+}
+
+#texto-rodape{
+
+    margin-top: 10px;
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,179,255,1) 50%, rgba(2,0,36,1) 100%);
+    color: #ffffff;
+    font-size:12px;
+    height: 25px;
+}
+
+
+#area-principal{
+
+    width:1010px;
+    border:2px solid black;
+    height:600px;
+    margin-left: 200px;
+
+}
+
+footer{
+    margin-top: 10px;
+}
