@@ -102,12 +102,54 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,179,255,1) 50%, rgb
 #area-principal{
 
     width:1010px;
-    border:2px solid black;
-    height:600px;
+    /*border:2px solid black;*/
+    height:700px;
     margin-left: 200px;
 
 }
 
 footer{
     margin-top: 10px;
+}
+
+.postit-laranja{
+
+    border: 2px solid orange;
+
+
+}
+
+#draggable { 
+    width: 75px;
+    height: 75px;
+    color: black;
+    border: 2px solid black;
+}
+
+.text-padrao {
+    color: orange;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.texto-verde{
+    color: green;
+}
+
+.text-vermelho{
+    color: red;
+}
+
+.text-marrom{
+    color: brown;
+}
+
+.text-amarelo{
+    color: rgb(233, 233, 27);
+}
+
+.text-roxo{
+    color: purple;
 }

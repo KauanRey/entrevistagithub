@@ -7,6 +7,18 @@
     <title>Curso de Git-GitHub</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 </head>
 <body>
       <header>
@@ -38,13 +50,20 @@
 
             </ul>
            </nav>
-      </section>
 
+      </section>
+      <h1>Mural de Avisos <span class="badge badge-secondary">Novo</span></h1>
       <section id="area-principal">
-        <h1>Mural</h1>
+        <div id="draggable" class="ui-widget-content">
+
+        
+
+        </div>
+
+
+
 
       </section>
-
       <!-----
         <section id="comandos">
         Tabela de Comandos Git
